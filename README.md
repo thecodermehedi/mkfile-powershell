@@ -32,17 +32,11 @@ To use the `mkfile` function, follow these steps:
 2. Now you can use the `mkfile` function with various parameters:
 
 ```powershell
-# Create a single file in the current directory
-mkfile test.txt
-
-# Create multiple files in the current directory
-mkfile test1.html test2.css
+# Create a file in the current directory
+mkfile index.html
 
 # Create a file in a specific directory
-mkfile C:\Path\To\Directory\file.txt
-
-# Create multiple files in different directories
-mkfile C:\Path\To\Directory\file1.txt D:\Another\Path\file2.txt
+mkfile src/main.ts
 
 # Display version information
 mkfile -v
